@@ -31,3 +31,23 @@ footer .brand-logo{width:145px;height:72px}
 }
 @media(max-width:700px){.nav{height:76px}.brand-logo{width:122px;height:62px}.links{top:76px}.art-window{animation:none!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal-ready{opacity:1!important;transform:none!important;transition:none!important}.hero *, .art-window,.art-badge,.art-glow{animation:none!important;transition:none!important}}
+
+/* Privacy Policy - smaller dark blue section headings */
+body .privacy-content h2 {
+  font-size: 24px !important;
+  line-height: 1.35 !important;
+  font-weight: 700 !important;
+  color: #243B5A !important;
+  letter-spacing: 0 !important;
+  margin-top: 32px !important;
+  margin-bottom: 16px !important;
+}
+
+@media (max-width: 768px) {
+  body .privacy-content h2 {
+    font-size: 21px !important;
+    line-height: 1.35 !important;
+    margin-top: 26px !important;
+    margin-bottom: 12px !important;
+  }
+}
